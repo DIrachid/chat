@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins','sans-serif';
+}
+/* scrollbar css */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::webkit-scrollbar-thumb{
+    background-color: #ccc;
+    border-radius: 6px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1877f2;
+}
+.inscription{
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.inscription .message_error{
+    color: red;
+    font-size: 14px;
+}
+.inscription label{
+    margin: 2px 0;
+}
+.inscription input{
+    padding: 5px;
+    outline: 0;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+.inscription input[type='submit']{
+    margin: 20px 0 5px;
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    color: white;
+}
+.inscription .link{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.link a{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: 0;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+/* page chat */
+.chat{
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.button_email{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deconnexion {
+    padding: 5px 20px;
+    color: white;
+    background-color: #1877f2;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: 0;
+}
+.message_box{
+    min-height: 360px;
+    max-height: 360px;
+    min-width: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 5px 10px;
+    border-top: 1px solid #999;
+
+}
+.message_box .message{
+    margin-bottom: 15px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+.message_box .message span{
+    font-weight: bold;
+    font-size:14px ;
+}
+.message_box p{
+    word-break:break-all ;
+    font-size: 13px;
+}
+.message1{
+    border: 1px solid #1877f2;
+    border-radius: 10px 10px 10px 0;
+}
+.message1 span{
+    color: #1877f2;
+}
+.message2{
+    border: 1px solid #999;
+    border-radius: 10px 10px 0;
+    margin-left: auto;
+}
+.message2 span{
+    color: #333;
+}
+.date{
+    font-size: 5px;
+    color:#ccc
+}
+.send_message{
+    border-top: 1px solid #999;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.send_message textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+.send_message input[type='submit']{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: #1877f2;
+    border: #1877f2;
+    color: white;
+    font-size: 13px;
+    cursor: pionter;
+}
+.messagesession{
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+}
